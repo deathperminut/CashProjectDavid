@@ -1,0 +1,25 @@
+<div width="100%" class="container-table-cash">
+  <table class="table" id="Table_cash" style="text-align: center;">
+      <thead>
+          <tr>
+              <th scope="col">Coin Name</th>
+              <th scope="col">Arbitrage Percentage</th>
+              <th scope="col">State</th>
+              <th scope="col">Quantity</th>
+              <th scope="col">Action</th>
+          </tr>
+      </thead>
+      <tbody>
+          <tr *ngFor="let coin of coins">
+              <td>{{coin.coin_name}}</td>
+              <td>{{coin.arbitrage_percentage}}</td>
+              <td class="green" *ngIf="coin.state === true" ><i class="fa-solid fa-check"></i></td>
+              <td class="red" *ngIf="coin.state === false"> <i class="fa-solid fa-xmark"></i></td>
+              <td>
+                <input class="input-table" type="number" required [(ngModel)]="coin.quantity">
+              </td>
+              <td><button class="button" style="vertical-align:middle">Send</button></td>
+          </tr>
+      </tbody>
+    </table>
+</div>

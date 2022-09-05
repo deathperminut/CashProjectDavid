@@ -1,0 +1,65 @@
+
+
+/* You can add global styles to this file, and also import other style files */
+
+
+/*ESPACIO PARA LOS IMPORTS*/
+
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rubik+Dirt&display=swap');
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+
+/***************************/
+
+.container-table-cash {
+    height: 750px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    background: rgba(14, 0, 7, 1)/* -webkit-linear-gradient(left, rgba(109, 109, 222, 0.43), rgba(241, 205, 241, 0.649), rgb(146, 47, 155)); */
+}
+
+#Table_cash {
+    margin: auto;
+    width: 70%;
+    padding: 10rem;
+    color: white;
+}
+
+
+.button {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #8a22b7df;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 1rem;
+    width: 70%;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button:hover {
+  transform: scale(1.1);
+}
+
+.green{
+  color: greenyellow;
+  /* padding: 20px; */
+}
+
+.red{
+  color:red;
+  /* padding: 20px; */
+}
+
+.input-table{
+  width: 30%;
+  text-align: center;
+  border-radius: 5px;
+}
+
+
+/********************************/

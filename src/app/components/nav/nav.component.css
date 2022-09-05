@@ -1,0 +1,40 @@
+#TextNav {
+  color: rgb(160, 68, 160);
+  transition: color 1s;
+  font-family: 'Rubik Dirt', cursive;
+  font-size: 2rem;
+}
+
+#TextNav:hover {
+  color: darkkhaki;
+}
+
+#TextSubNav {
+  color: rgb(185, 82, 168);
+  transition: 1s;
+}
+
+#TextSubNav:hover {
+  color: rgb(165, 60, 147)
+}
+
+#NavNameContent {
+  display: flex;
+  justify-content: right;
+}
+
+.navbar.navbar-dark.bg-dark.fixed-top {
+  background: -webkit-linear-gradient(left, rgb(13, 13, 14), rgb(63, 38, 63), rgb(9, 9, 24))!important;
+  position: flex;
+}
+
+#NavButtonContent {
+  display: flex;
+  justify-content: right;
+}
+
+
+
+.offcanvas.offcanvas-end.text-bg-dark.show {
+  background: -webkit-linear-gradient(left, rgb(13, 13, 14), rgb(63, 38, 63), rgb(9, 9, 24));
+}
