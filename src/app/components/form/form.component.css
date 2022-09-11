@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rubik+Dirt&display=swap');
+@import "~bootstrap-icons/font/bootstrap-icons.css";
+.container-main-form-cash {
+    height: 750px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    background: -webkit-linear-gradient(left, rgb(24, 24, 26), rgb(114, 63, 114), rgb(24, 24, 26))!important;
+}
+
+
+/*SELECT*/
+
+.select {
+    width: 55%;
+    align-items: flex-end;
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    font-size: 1.1rem;
+    color: white;
+    cursor: pointer;
+    line-height: 1.1;
+    background-color: rgb(37, 45, 59);
+    background-image: linear-gradient(to top, #271f1f, rgb(64, 32, 65) 33%);
+}
+
+.InputTime {
+    width: 55%;
+    background-color: rgb(37, 45, 59);
+    background-image: linear-gradient(to top, #271f1f, rgb(64, 32, 65) 33%);
+    border: 1px solid var(--select-border);
+    border-radius: 0.25em;
+    color: white;
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+    background-color: rgb(203, 139, 206);
+}
+
+
+/* input[type="time"]::-webkit-calendar-picker-indicator {
+    filter: invert(0%) white(100%) saturate(3207%) hue-rotate(130deg) brightness(95%) contrast(80%);
+} */
+
+
+/**********************************************************/
+
+
+/*******************TIME**********************************/
+
+.Form-structure {
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.container-list-money {
+    overflow-y: auto;
+    height: 100px
+}
+
+
+/* width */
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+
+/* Track */
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+
+/* Handle */
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+
+/* Handle on hover */
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.Container-span-button-update {
+    display: flex;
+}
+
+.form-section {
+    width: 100%;
+    height: 30px;
+    margin: 0.5rem;
+}
+
+.btn-container {
+    width: 20%;
+    height: 70px;
+    margin-left: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    width: 80%;
+    height: 70px;
+}
+
+.text-form {
+    color: rgb(218, 213, 185);
+    font-family: monospace;
+}
+
+.Execute-button-container {
+    display: flex;
+    justify-content: center
+}
+
+.btn {
+    font-size: 1.5rem;
+    border-radius: 2.5rem;
+}
+
+.container-form-cash {
+    margin: auto;
+    width: 55%;
+    height: 530px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text-form-title {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(218, 213, 185);
+    font-family: 'Rubik Dirt', cursive;
+}
+
+.form-imag {
+    width: 47%;
+    background-color: rgb(23, 51, 92);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-image: url('src/assets/FormBack.jpg');
+    background-position: center;
+}
+
+.form-content {
+    width: 53%;
+    background-color: rgb(10, 13, 13);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
