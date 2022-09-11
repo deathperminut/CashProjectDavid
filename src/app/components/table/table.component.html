@@ -18,7 +18,9 @@
               <td>
                 <input class="input-table" type="number" required [(ngModel)]="coin.quantity">
               </td>
-              <td><button class="button" style="vertical-align:middle">Send</button></td>
+              <td>
+                <button type="button" class="btn btn-primary button" style="vertical-align:middle" (click)="sendInformation(coin)">Send</button>
+              </td>
           </tr>
       </tbody>
     </table>
