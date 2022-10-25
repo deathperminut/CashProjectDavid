@@ -4,7 +4,6 @@
 .container-main-form-cash {
     height: 100vh;
     width: 100%;
-    
     display: flex;
     background: -webkit-linear-gradient(left, rgb(24, 24, 26), rgb(114, 63, 114), rgb(24, 24, 26))!important;
 }
@@ -50,17 +49,18 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 /*******************TIME**********************************/
 
 .Form-structure {
-    margin: 1rem;
+    margin: 1rem 10% 1rem 24%;
     display: flex;
     flex-direction: column;
     color: white;
+    max-width: 84%;
 }
 
 .container-list-money {
     overflow-y: auto;
-    height: 100px
-}
-
+    height: 100px;
+    max-width: 70%;
+}s
 
 /* width */
 
@@ -91,6 +91,8 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 
 .Container-span-button-update {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .form-section {
@@ -100,7 +102,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
 }
 
 .btn-container {
-    width: 35%;
+    width: 45%;
     height: 70px;
     margin-left: 1rem;
     display: flex;
@@ -118,7 +120,7 @@ input[type="time"]::-webkit-calendar-picker-indicator {
     display: flex;
     align-items: center;
     margin-left: 1rem;
-    width: 80%;
+    width: 60%;
     height: 70px;
 }
 
