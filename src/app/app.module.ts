@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+import {HttpClientModule} from '@angular/common/http'
 
 import { AppComponent } from './app.component';
 import { NavComponent } from './components/nav/nav.component';
@@ -9,11 +10,8 @@ import { FormComponent } from './components/form/form.component';
 import { RouterModule, Routes } from '@angular/router';
 import { BtcComponent } from './pages/btc/btc.component';
 import { EthComponent } from './pages/eth/eth.component';
-import { HomeComponent } from './pages/home/home.component'; // IMPORTAMOS PARA GENERAL LAS RUTAS
+import { HomeComponent } from './pages/home/home.component'; 
 
-// CREAMOS MI CONSTANTE DE RUTAS
-// AL INICIO NO RECONOCE LA CLASE ROUTES PORQUE TOCA IMPORTARLA
-// DEL PAQUETE DE ANGULAR.
 
 const appRoutes:Routes=[
   {path:'',component:HomeComponent},
@@ -34,7 +32,8 @@ const appRoutes:Routes=[
   imports: [
     BrowserModule,
     FormsModule,
-    RouterModule.forRoot(appRoutes) // LE ENVIAMOS LA CONSTANTE CON MIS RUTAS
+    HttpClientModule,
+    RouterModule.forRoot(appRoutes) 
   ],
   providers: [],
   bootstrap: [AppComponent]
