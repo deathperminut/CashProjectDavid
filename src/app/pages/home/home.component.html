@@ -1,0 +1,11 @@
+<section class="section">
+  <div class="container">
+    <h2 class="title-pages"><span class="btc-link" (click)="isBtcPage()">BTC/USDT Price: $20622  </span>  <span class="eth-link" (click)="isEthPage()">  ETH/USDT Price: $1542.2</span></h2>
+    <div *ngIf="btcPage; else ethPage">
+        <app-btc></app-btc>
+      </div>
+      <ng-template #ethPage>
+        <app-eth></app-eth>
+      </ng-template>
+  </div>
+</section>

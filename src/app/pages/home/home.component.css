@@ -1,0 +1,22 @@
+.section {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  background:  -webkit-linear-gradient(left, rgb(13, 13, 14), rgb(63, 38, 63), rgb(9, 9, 24)); 
+}
+
+.title-pages{
+  color: white;
+  margin-bottom:10px ;
+  text-align: center;
+}
+
+.btc-link:hover{
+  cursor: pointer;
+  color: aqua;
+}
+
+.eth-link:hover{
+  cursor: pointer;
+  color: aqua;
+}

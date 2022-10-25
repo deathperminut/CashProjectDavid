@@ -18,9 +18,7 @@
                 <div class="Money-Selector-Container form-section" style="display:flex">
                     <div style="width:50%"> <span class="text-form">Moneda</span></div>
                     <div style="width:50%"><select class="select">
-                    <option>Money 1</option>
-                    <option>Money 2</option>
-                    <option>Money 3</option>
+                        <option *ngFor="let coin of coins ">{{coin.coin_name}}</option>
                   </select>
                     </div>
 
@@ -83,15 +81,6 @@
                 </div>
 
             </form>
-
-
-
-
-
-
-
-
-
         </div>
     </div>
 

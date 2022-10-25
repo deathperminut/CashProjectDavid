@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Rubik+Dirt&display=swap');
 @import "~bootstrap-icons/font/bootstrap-icons.css";
 .container-main-form-cash {
-    height: 750px;
+    height: 100vh;
     width: 100%;
-    margin-top: 40px;
+    
     display: flex;
     background: -webkit-linear-gradient(left, rgb(24, 24, 26), rgb(114, 63, 114), rgb(24, 24, 26))!important;
 }

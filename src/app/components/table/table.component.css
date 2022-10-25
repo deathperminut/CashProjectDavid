@@ -12,11 +12,9 @@
 /***************************/
 
 .container-table-cash {
-    height: 750px;
+    height: 100vh;
     width: 100%;
-    margin-top: 40px;
-    display: flex;
-    background: rgba(14, 0, 7, 1)/* -webkit-linear-gradient(left, rgba(109, 109, 222, 0.43), rgba(241, 205, 241, 0.649), rgb(146, 47, 155)); */
+    
 }
 
 #Table_cash {
